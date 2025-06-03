@@ -1,0 +1,222 @@
+{
+    
+    "header":{
+        "about":"Accueil",
+        "skills":"À PROPOS",
+        "projects":"Projets",
+        "Experiences":"Experiences",
+        "contact":"Contact",
+        "thesis":"Mémoire",
+        "task":"Ingénieur logiciel - Chercheur en IA/ML"   
+    },
+    "about":{
+        "role":"Ingénieur logiciel et ingénieur IA/ML",
+        "description": "Je suis ingénieur logiciel et l'informatique est une passion pour moi depuis mon enfance. Innovant, j'aime trouver des solutions à des problèmes concrets grâce à mes compétences en informatique. Mes principaux centres d'intérêt sont la conception et le développement de logiciels, l'intelligence artificielle et l'apprentissage automatique, la vision par ordinateur et le traitement du langage naturel.",
+        "degrees":{
+            "1": "Diplôme d'ingénieur informatique",
+            "2": "Maîtrise en mathématiques et informatique appliquées",
+            "3": "Architecte de solutions certifié AWS – Associé",
+            "4":"Certifié AWS Cloud Practitioner"
+        },
+        "title": "Diplômes et Certifications",
+        "bt-skill": "Compétences",
+        "bt-exp": "Expériences",
+        "more":"En savoir plus sur mes:"        
+    },
+    "clients":{
+        "1":"1.png",
+        "2":"2.png",
+        "3":"3.png",
+        "4":"4.png"
+    },
+    "skills":{
+        "1":{
+            "title": "Machine Learning, Artificial Intelligence",
+            "description":"I've worked on many projects using machine learning to solve real-life problems such as detecting bank card fraud using machine learning, drowsiness detection, image recognition and cancer detection and many others. I have extensive experience of frameworks such as tensorflow, pytorch and libraries such as numpy, pandas, opencv.",
+            "icon":"fa fa-share-alt fa-2x"
+        },
+        "2":{
+            "title": "Large Language Model(LLM)",
+            "description":"I have experience in building automation tools to solve business problems using large language models like gpt, claude, llama and others.I understand architecture like transformers and I know how to do fine tuning of an llm, apply quantization to reduce model size and improve exection runtime, using RAG to improve the knowledge base of the model.",
+            "icon":"fa fa-laptop fa-2x"
+        },
+        "3":{
+            "title": "Computer Vision",
+            "description":"I have extensive experience in building computer vision projects such as drowsiness detection, image classification, real-time traffic sign detection using Yollo. I master frameworks like tensorflow, pytorch and libraries like opencv, opengl, yollo.",
+            "icon":"fa fa-dot-circle-o fa-2x"
+        },
+        "4":{
+            "title": "Python",
+            "description":"With over 3 years of experience using python to build projects to solve business problems using many python frameworks like tensorflow, pytorch and libraries like panda, numpy, and many others. With python, I've used many algorithms such as Xgboost, decision tree, random forest, svm and many others. I've also used smote and gan to solve problems when dealing with unbalanced data sets, applying features selection to improve model performance.",
+            "icon":"fa icon-python fa-2x"
+        },
+        "5":{
+            "title": "JavaScript, HTML, CSS",
+            "description":"I've always been passionate about web development and have over 5 years combined experience creating web applications. I have in-depth knowledge of javascript, typscript and html and css for web design. I also master libraries like node js and other frameworks for building api. I have a great understanding of databases, mainly sql databases such as prostgress, mysql and nosql databases such as mongodb.",
+            "icon":"fa fa-code fa-2x"
+        },
+        "6":{
+            "title": "Java",
+            "description":"Java was the first object-oriented programming language I mastered. I used it to build several applications and projects.",
+            "icon":"fa icon-java-bold fa-2x"
+        }
+    },
+    "pojects":{
+        "portfoliio":"Portfolio",
+        "presentation":"Here are some of my projects",
+        "list":{
+            "1":{
+                "title":"LLM(gpt,claude)",
+                "image":"../../../assets/images/projects/1.jpg",
+                "link":{
+                    "name": "Github",
+                    "link":"https://github.com/CheunAnthony/insurance-bot"
+                },
+                "small-description":"Building an insurance ChatBot",
+                "full-description":"In this project, we built an AI insurance ChatBot to help respond to customers. In order to build our AI insurance ChatBot, we used an LMI that was combined with a knowledge base using the technique known as RAG. The first step is to use a knowledge base containing information about the insurance company. We extract important context from this knowledge base. We will then vectorize the data from the knowledge base to produce better queries for our data. To prevent the LLM from making a mistake and returning the wrong answer to the client, we instruct the LLM to return the answer if it doesn't exist in the knowledge base.",
+                "task":{
+                },
+                "tools":{
+
+                }
+            },
+            "2":{
+                "title":"Python,Gradio",
+                "image":"../../../assets/images/projects/2.jpg",
+                "link":{
+                    "name": "Github",
+                    "link":"https://github.com/CheunAnthony/ai-brochure-generator"
+                },
+                "small-description":"Automate brochure generation using LLM",
+                "full-description":"In this project, we built a highly efficient brouchure generator using LLM. We also added the option of translating the generated brochure. The solution process can be divided into three main stages. The first step is to build a website scrapper that can retrieve the content of a given url website. After scrapping the website, we'll send the useful website content to an LLM model. The LLM model will generate a brochure by summarizing and extracting the useful information. We choose Chatgpt and Claude to do this task.The final step is to send the generated brochure to another LLM for translation into the desired language.In our context, we decided to translate it into French.",
+                "task":{
+                   
+                },
+                "tools":{
+                    
+                }
+            },
+            "3":{
+                "title":"AI Automation",
+                "image":"../../../assets/images/projects/3.jpg",
+                "link":{
+                    "name": "Github",
+                    "link":""
+                },
+                "small-description":"Automate code generation for software testing",
+                "full-description":"In this project, we built a software test automation tool using LLM. The tool can generate unit tests, integration tests taking into account the order of integration, and regression tests. In the case of a regression test, LLM must perform a minor and a major modification.",
+                "task":{
+                   
+                },
+                "tools":{
+                    
+                }
+            },
+            "4":{
+                "title":"Python to C++",
+                "image":"../../../assets/images/projects/4.png",
+                "link":{
+                    "name": "Github",
+                    "link":"https://github.com/CheunAnthony/code-convertor"
+                },
+                "small-description":"Code Converter",
+                "full-description":"In this project, we built a software test automation tool using LLM. The tool can generate unit tests, integration tests taking into account the order of integration, and regression tests. In the case of a regression test, LLM must perform a minor and a major modification.",
+                "task":{
+                   
+                },
+                "tools":{
+                    
+                }
+            },
+            "5":{
+                "title":"Tensorflow,Opencv",
+                "image":"../../../assets/images/projects/5.JPG",
+                "link":{
+                    "name": "Youtube",
+                    "link":"https://www.youtube.com/watch?v=_1bFNzwh44w"
+                },
+                "small-description":"Drowsiness detection system",
+                "full-description":"In this project, we built a drowsiness detection system using tensorflow and opencv. Our system can detect drowsiness at the wheel by detecting whether the driver has firm eyes, and in a more advanced version, we've added other criteria such as yawning. Once the system detects drowsiness at the wheel, an alarm is triggered.",
+                "task":{
+                   
+                },
+                "tools":{
+                    
+                }
+            },
+            "6":{
+                "title":"XGBoost,Decisiontree",
+                "image":"../../../assets/images/projects/6.jpg",
+                "link":{
+                    "name": "Github",
+                    "link":"https://github.com/CheunAnthony/wine-quality-prediction/blob/main/Wine_Quality_Prediction.ipynb"
+                },
+                "small-description":"Wine Quality Detection",
+                "full-description":"The goal of this project is to build a machine learning model that is able to predict the quality of whine by giving it a note from 1 to 10. The main features used are the following for the prediction are fixed_acidity,volatile_acidity,citric_acid,residual_sugar,chlorides,free_sulfur_dioxide,total_sulfur_dioxide,density,pH,sulphates.",
+                "task":{
+                   
+                },
+                "tools":{
+                    
+                }
+            },
+            "7":{
+                "title":"CNN,Data augmentation,Gradio",
+                "image":"../../../assets/images/projects/7.jpg",
+                "link":{
+                    "name": "Github",
+                    "link":"https://github.com/CheunAnthony/traffic-sign-detection"
+                },
+                "small-description":"Trafic sign detection",
+                "full-description":"In this project, we have built a convolutional neural network architecture for traffic sign recognition using real-world images. For this project, we used the following data set (https://www.kaggle.com/datasets/ahemateja19bec1025/traffic-sign-dataset-classification/data). It's a data set from kaggle. For this project, we used a number of techniques.Data augmentation techniques such as random rotations, horizontal flips, and noise adding were applied to simulate real-world variations.Cross-validation training: to achieve this, we have divided our data set into three parts, namely the training set, the validation set and the test set. This will make our model more robust, more reliable and less prone to overfitting.We used a callback function to monitor learning and adjust it during training by using the loss of training validation. We also added a callback function to save the weight of the best model and also a callback for an early stopage it the validation does not decrease after some iterration.",
+                "task":{
+                   
+                },
+                "tools":{
+                    
+                }
+            }
+        }
+    },
+    "experiences":{
+
+        "title":"Experiences",
+        "subtitle":"A short summary of my work experience..",
+        "1":{
+            "company-name":"UQTR Lab",
+            "location":"Canada,Trois-Rivières",
+            "title":"uqtr laboratory researcher",
+            "date":"2022-2024",
+            "description":"Researcher at the UQTR laboratory, working on cybersecurity and fraud detection,intrusion detection using machine learning algorithms.",
+            "logo":"../../../assets/images/company/1.png",
+            "class":"timeline-inverted"
+        },
+        "2":{
+            "company-name":"TRAVARIS",
+            "location":"Tunisia,Tunis",
+            "title":"Web & Mobile Developer",
+            "date":"2020",
+            "description":"Creation of a mobile and web application for tourists and travellers to consult places(Hotels,Park,Museum,...) in a country with an advanced map and with trip recommendation.",
+            "logo":"../../../assets/images/company/2.png",
+            "class":""
+        },
+        "3":{
+            "company-name":"FIT IMMERSION/Perform VR",
+            "location":"France,Monpellier",
+            "title":"IOS Developer",
+            "date":"2020",
+            "description":"Realization of an ios ﬁtness application using virtual reality to make sports sessions more interesting and less boring while burning calories efficiently.",
+            "logo":"../../../assets/images/company/3.png",
+            "class":"timeline-inverted"
+        },
+        "4":{
+            "company-name":"XTENSUS",
+            "location":"Tunisia,Tunis",
+            "title":"Web Developer",
+            "date":"2017",
+            "description":"Conception,Design and Realization of web application within the company.",
+            "logo":"../../../assets/images/company/4.png",
+            "class":""
+        }
+    }
+}
